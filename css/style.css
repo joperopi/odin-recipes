@@ -10,7 +10,7 @@ body {
     border-width: 0px 2px;
     margin: auto;
     min-height: 100vh;
-    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(70,133,202,1) 100%);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgb(184, 203, 224) 100%);
 }
 
 header {
@@ -28,6 +28,27 @@ h1 {
     font-size: 45px;
 }
 
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    background-color: white;
+    padding: 5px;
+    font-size: 25px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 10px;
+}
+
+.recipeimg {
+    border-radius: 10px;
+}
+
+p {
+    font-size: 20px;
+}
+
 span {
     padding: 20px;
     margin: 10px;
@@ -40,8 +61,11 @@ ul {
     margin-right: 100px;
 }
 
-li {
+ul li {
     list-style: none;
+}
+
+li {
     margin: 10px;
 }
 
@@ -57,4 +81,28 @@ li {
 
 .homelist a:hover {
     color: rgb(83, 83, 83);
+}
+
+.recipe {
+    font-size: 20px;
+}
+
+.steps {
+    text-align: left;
+    margin: 10px;
+}
+
+ol {
+    background: #cce5ff;
+    padding: 20px;
+}
+
+ol li {
+    background: white;
+    padding: 5px;
+}
+
+.foot {
+    margin: 0px;
+    padding: 10px;
 }
