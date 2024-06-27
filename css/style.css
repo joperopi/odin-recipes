@@ -1,0 +1,24 @@
+html {
+    background-image: url("../img/burgers.jpg");
+}
+
+body {
+    text-align: center;
+    width: 800px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0px 2px;
+    margin: auto;
+    min-height: 100vh;
+    background-color: white;
+}
+
+h1 {
+    background-color: white;
+    font-size: 45px;
+    margin: 0px;
+}
+
+li {
+    list-style: none;
+}
